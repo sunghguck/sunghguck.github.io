@@ -1,0 +1,42 @@
+body{
+  margin:0;
+  background-color: lightblue;
+}
+a{
+  text-decoration:none;
+}
+h1{
+  text-align:center;
+  font-size:40px;
+  border-bottom:2px solid ;
+  padding:40px 20px 40px 20px;
+  margin:0;
+  background-image: url("원피스.jfif");
+  background-size: 200px;
+  }
+  ol{
+  font-weight:bold;
+  border-right: 2px solid;
+  padding:30px 10px 200px 10px;
+  margin: 0;
+  width:100px;
+  }
+  #list{
+    display: grid;
+    grid-template-columns: 200px 1fr;
+  }
+  #list{
+    padding-left: 35px;
+  }
+  .text{
+  padding-top:50px;
+  text-align:center;
+  font-weight: bold;
+  }
+  .name{
+    border: 2px solid;
+    border-color:lightskyblue;
+    background-color:lightskyblue;
+    width: 500px;
+    margin: auto;
+  }
